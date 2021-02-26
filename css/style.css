@@ -57,7 +57,10 @@ float: right;
 }
 
 #line {
-    margin-top: 5px;
+    margin-top: 35px;
+    background-image: url(../img/linethrow.jpg);
+    width: auto;
+    height: 20px;
 
 }
 
@@ -107,12 +110,77 @@ input[type=checkbox]:checked + label {
     position: relative;
     font-family: 'Patrick Hand';
     color: rgba(31, 29, 29, 0.747);
-    background-image: url('https://github.com/waleedafifi90/amman-201d17/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true');
-    display: inline;
+    /*background-image: url('https://raw.githubusercontent.com/waleedafifi90/amman-201d17/main/class-10/lab-a/lab-assets/list-bg.png');*/
+   font-size: 22px;
+   
 }
 hr {
     background-image: url(../img/small-logo.png);
 }
 footer{
 
+}
+#ull {
+    display: inline-block;
+    float: right;
+}
+#foleft {
+    float: left;
+    margin-top: 20px;
+}
+#butt {
+    float: right;
+    background-color: rgba(179, 51, 34, 0.795);
+    font-family: 'abel';
+    font-size: 25px;
+    color: white;
+        margin-top: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border: none;
+}
+#lastp {
+    float: left;
+    display: inline;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    padding-left: 15px;
+    height: 60px;
+    width:660px;
+}
+
+#name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#foo {
+    margin-top: 100px;
+}
+#copyr {
+    text-align:center ;
+    color: rgb(153, 149, 149);
+    margin:20px;
+    line-height: 25px;
+}
+.footer {
+    display: block;
+    text-align: center;
+}
+hr {
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+}
+.footer img {
+    position: relative;
+    top: -25px;
+    background:white;
+    padding:0 5px;
+}
+.right {
+    margin-right: 10px;
+    margin-bottom: ;
 }
