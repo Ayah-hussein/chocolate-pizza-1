@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eczar&display=');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@300;400;500;700&family=Patrick+Hand&family=Yellowtail&display=swap');
 *{box-sizing: border-box;}
 h1{font-family: 'Yellowtail', cursive; font-size: 30px;}
 body {
@@ -8,6 +11,9 @@ body {
 
 h1 {
     margin:0px;
+    color: black;
+    
+    
 }
 
 main{margin-top: 10px;}
@@ -21,6 +27,8 @@ header {
     
     width: 960px;
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 /*div {
     display: inline;
@@ -30,6 +38,9 @@ header {
 .headl {
     display: inline-block;
     float: left;
+    font-family: 'Abel', sans-serif;
+ color: rgb(167, 159, 159);
+    font-size: smaller;
 }
 
 #righth {
@@ -42,4 +53,66 @@ header {
 float: right;  
 }
 .choco{
-    width: 960px;};
+    width: 960px;
+}
+
+#line {
+    margin-top: 5px;
+
+}
+
+#post {
+
+    font-family: 'Abel', sans-serif;
+ color: rgb(167, 159, 159);
+    font-size: smaller;
+}
+h2 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: normal;
+
+}
+#topim {
+    float: right;
+    display: inline;
+    color: rgb(148, 140, 140);
+    font-size: 12px;
+}
+#print {
+    float: right;
+}
+
+
+.tap
+{
+    text-indent: 20px;
+    font-family: 'Eczar';
+    color: grey;
+    margin-top:25px;
+
+    
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+#list{
+ list-style: none;
+    position: relative;
+    font-family: 'Patrick Hand';
+    color: rgba(31, 29, 29, 0.747);
+    background-image: url('https://github.com/waleedafifi90/amman-201d17/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true');
+    display: inline;
+}
+hr {
+    background-image: url(../img/small-logo.png);
+}
+footer{
+
+}
